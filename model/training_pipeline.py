@@ -36,7 +36,7 @@ def run_pipeline():
     # Step 4: Generate Comparison Table
     report_df = pd.DataFrame(results).T
     print("\n" + "="*50)
-    print("COPY THIS TABLE INTO YOUR README.MD")
+
     print("="*50)
     print(report_df.to_markdown())
     print("="*50)
